@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS WORD</title>
+</head>
+<link rel="stylesheet" href="./cr7.css">
+
+<body>
+    <div id="ribbon">
+        <div id="toolbar">
+            <div class="toolbar-section">
+                <button onclick="execCmd('bold')"><b>B</b></button>
+                <button onclick="execCmd('italic')"><i>I</i></button>
+                <button onclick="execCmd('underline')"><u>U</u></button>
+            </div>
+            <div class="toolbar-section">
+                <button onclick="execCmd('justifyLeft')">Left</button>
+                <button onclick="execCmd('justifyCenter')">Center</button>
+                <button onclick="execCmd('justifyRight')">Right</button>
+            </div>
+            <div class="toolbar-section">
+                <button onclick="execCmd('insertOrderedList')">Ordered List</button>
+                <button onclick="execCmd('insertUnorderedList')">Unordered List</button>
+            </div>
+        </div>
+    </div>
+    <div id="editor" contenteditable="true">
+        <p>Start editing...</p>
+    </div>
+
+    <script src="./cr7.js"></script>
+</body>
+
+</html>

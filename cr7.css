@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#ribbon {
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+#toolbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.toolbar-section {
+    display: flex;
+}
+
+.toolbar-section button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+#editor {
+    margin-top: 60px;
+    padding: 20px;
+    min-height: 80vh;
+    border: 1px solid #ccc;
+}
